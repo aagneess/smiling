@@ -1,0 +1,39 @@
+* {
+    margin: auto; 
+    box-sizing: border-box;
+}
+html, body {
+    overflow-x: hidden;
+    /* position: relative; */
+}
+:root {
+    --main-bg: #BEDBA0;
+    --main-color: #363636;
+    --main-footer: #F2F2F2;
+
+    --event-bg: #F3E8DA;
+    --event-color: #E1B581;
+    --event-shadow: #D8792F;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+label, button {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+main {
+    background-color: var(--main-bg);
+    margin: auto;
+    display: flex;
+    height: 100vh;
+}
+.start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25rem;
+  }
+  button img {
+      width: 3rem;
+  }
