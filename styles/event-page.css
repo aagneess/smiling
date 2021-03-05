@@ -1,0 +1,76 @@
+.event-page {
+    width: 100%;
+    background-color: var(--event-bg);
+    top: 0;
+    left: 0;
+    display: flex;
+}
+
+
+/* INFO SECTION */
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.illustration {
+    width: 100vw;
+    position: relative;
+}
+
+.white-box {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    background-color: var(--event-text);
+    width: 70%;
+    height: 70%;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+@media screen and (min-width: 800px) {
+    .white-box  {
+        width: 70%;
+        height: 30%;
+    }
+}
+
+
+
+
+.form-group {
+    display: flex;
+    padding: 8rem 0 8rem 0;
+}
+/* TALKERS SECTION */
+.talkers {
+    padding: 10rem 4rem;
+}
+.talkers img {
+    width: 10rem;
+    margin: auto;
+}
+/* PRODUCT SECTION */
+.products {
+    padding: 0rem 4rem 8rem 4rem;
+    display: flex;
+}
+.placeholder-image {
+    background-color: black;
+    width: 100%;
+    height: 30rem;
+}
+.product-button {
+    background-color: var(--event-shadow);
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    position: absolute;
+    right: 1rem;
+    margin-top: 2rem;
+}
+.scroll-button {
+    font-size: 1.4rem;
+    padding-bottom: 2rem;
+}

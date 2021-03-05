@@ -1,0 +1,34 @@
+:root {
+    --event-text: #FFF9F1;
+    --main-color: #363636;
+    --event-color: #E1B581;
+}
+@font-face {
+    font-family: 'CaveatBrush';
+    src: url("/fonts/CaveatBrush-Regular.woff");
+    font-style: normal;
+    font-weight: 300;
+}
+.product-button {
+    font-family: 'CaveatBrush';
+    color: var(--event-text);
+    font-size: 1.5rem;
+    border: none;
+}
+h1 {
+    font-size: 7rem;
+    font-family: 'CaveatBrush';
+}
+p {
+    color: var(--main-color);
+}
+span, p {
+    font-size: 1rem;
+}
+span p {
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+.scroll-down {
+    padding-top: 2rem;
+}

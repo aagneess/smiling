@@ -10,30 +10,76 @@
 
     <link rel="stylesheet" href="styles/global.css">
     <link rel="stylesheet" href="styles/footer.css">
-    <link rel="stylesheet" href="styles/cta.css">
+    <link rel="stylesheet" href="styles/event-page.css">
+    <link rel="stylesheet" href="styles/hero.css">
+    <link rel="stylesheet" href="styles/typography.css">
+    <link rel="stylesheet" href="styles/animation.css">
 </head>
 <body>
 
+<div>
+  <section class="hero">
+    <article class="invitation">
+
+      <h1><img class="heading" src="/images/heading.svg"></h1>
+      
+
+        <span>Hej ___ !<br>
+        Du är härmed inbjuden att<br>
+        delta på vårt evenemang den<br>
+        <p>19 MARS 2021</p>
+        Tryck på pilen nedan för mer<br>
+        information om eventet!
+        </span>
+        <button class="scroll-down"><img src="/images/down.svg" alt="scroll-down button">
+        </button>
+
+    </article>
+  </section>
+</div>
 
 
-<main>
-    <section class="start">
-              <div class="col-sm-8">Hej _____ !<br>
+<section class="event-page">
 
-        Du är härmed inbjuden att delta på
-        vårt evenemang den 19 mars 2021</div>
-    </section>
+<div>
 
-    <button class="change-page btn"><img src="/images/next.svg" alt="next-page"></button>
-</main>
+<article class="info">
+
+  <picture class="illustration" id="illustration">
+    <source media="(min-width: 800px)" srcset="/images/back-drop-desktop.svg" />
+    <source media="(min-width: 0px)" srcset="/images/back-drop-phone.svg" />
+    <img class="illustration" src="images/back-drop-phone.svg" alt="Illustration med tropiska blad"/>
+</picture>
 
 
-    <section class="call-to-action">
+  <div class="white-box">
+  <section class="introduction">
+        <p> Välkommen till vårt Smiling-gäng! <br>
+            <br>
+            När du väljer Smiling är du med och skapar hållbar 
+            utveckling i våra odlingsländer, på riktigt. 
+            Vi ser framemot att få dela vår vision med dig. 
+            Vi är övertygade om att handel, snarare än bistånd, 
+            skapar långsiktig utveckling där det behövs som mest. 
+            Vi ser framemot att få dela vår vision med dig, och med din hjälp kan 
+            vi sprida denna kunskap vidare.<br>
+            <br>
+            Här nedan kan du anmäla dig till eventet samt se vårt program.
+        </p>
+      </section></div>
+</article>
+
+
     <article class="form-group">
         <form>
             <div class="mb-3">
-              <label for="full-name" class="form-label">För- och efternamn</label>
-              <input type="full-name" class="form-control" id="full-name">
+              <label for="first-name" class="form-label">Förnamn</label>
+              <input type="first-name" class="form-control" id="first-name">
+            </div>
+
+            <div class="mb-3">
+              <label for="last-name" class="form-label">Efternamn</label>
+              <input type="last-name" class="form-control" id="last-name">
             </div>
 
             <div class="mb-3">
@@ -44,12 +90,82 @@
             <button type="submit" class="btn btn-dark">Anmäl dig till evenemanget!</button>
           </form>
     </article>
-    <button class="change-page btn"><img src="/images/close.svg" alt="Close-button"></button>
-    </section>
+
+    <article class="talkers">
+
+      <div class="row row-cols-2 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </article>
+
+
+    <article class="products">
+
+        <div class="placeholder-image" alt="An assortment of Smiling-products"></div>
+
+        <a href="https://www.smiling.se/shop">
+        <button class="product-button">KLICKA HÄR FÖR<br>
+            ATT KOMMA TILL VÅRT<br>HÄRLIGA SORTIMENT!</button>
+        </a>
+
+    </article>
+
+    <!-- SCROLL TO TOP -->
+     
+    <div class="d-grid gap-2">
+        <button onclick="topFunction()" class="btn scroll-button" id="btn" title="Scroll to top">↑ Scroll to Top</button>
+    </div>
+    
+
+</div>
+</section>
 
     <footer>
-        <p>Ett evenemang av</p>
-        <a href="https://www.smiling.se"><img class="logo" src="smiling.png"></a>
+    <section class="footer-section">
+
+        <article class="event-host">
+            <a class="footer-link" href="https://www.smiling.se/bloggen">Vår blogg!</a>
+            <a href="https://www.smiling.se"><img class="logo" src="/images/smiling.png"></a>
+            <a class="footer-link" href="https://www.smiling.se/kontakt">Om oss</a>
+        </article>
+
+    </section>
     </footer>
 
     <script src="app.js"></script>

@@ -1,0 +1,15 @@
+{"invites":
+    [
+        {
+        "name": "blip blop",
+        "email": "blipblog@gmail.com",
+        "role": "influencer"
+        },
+
+        {
+        "name": "boop boop",
+        "email": "boop@gmail.com",
+        "role": "retail"
+        }
+    ]
+}

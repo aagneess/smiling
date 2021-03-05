@@ -1,0 +1,33 @@
+.hero {
+    background-color: var(--main-bg);
+    margin: auto;
+    display: flex;
+    height: 100vh;
+}
+.hero h1 {
+    padding-bottom: 4rem;
+}
+.heading {
+    width: 15rem;
+}
+@media screen and (min-width: 800px) {
+    .heading  {
+        width: initial;
+    }
+    .hero h1 {
+        padding-bottom: 10rem;
+    }
+}
+.invitation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.scroll-down {
+    outline: none;
+    border: none;
+    background-color: var(--main-bg);
+}
+button img {
+    width: 3rem;
+}
