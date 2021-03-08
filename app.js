@@ -22,6 +22,13 @@ function topFunction() {
   document.documentElement.scrollTop = 0;
 }
 
+
+function preventClick(event) {
+  event.preventDefault();
+}
+
+document.querySelector(".event-button").addEventListener("click",preventClick);
+
 // Get-info
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
@@ -36,3 +43,5 @@ console.log(firstName, lastName, email, occupation);
 // http://127.0.0.1:5500/index.html?name=janedoe&email=example@gmail.com&occupation=influencer
 
 const name = document.querySelector(first-name);
+
+

@@ -14,8 +14,8 @@ footer {
 }
 a .logo {
     display: flex;
-    margin: 0 4rem 0 4rem;
-    width: 10rem;
+    margin: 0 2rem 0 2rem;
+    width: 7rem;
     justify-content: center;
     align-items: center;
 }

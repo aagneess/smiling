@@ -19,6 +19,11 @@ h1 {
     font-size: 7rem;
     font-family: 'CaveatBrush';
 }
+h3 {
+    font-size: 2rem;
+    color: var(--main-color);
+    font-family: 'CaveatBrush';
+}
 p {
     color: var(--main-color);
 }
