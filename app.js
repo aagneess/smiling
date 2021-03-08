@@ -23,11 +23,42 @@ function topFunction() {
 }
 
 
+
+// PREVENT RELOAD ON EVENT-BUTTON + CONFIRMATION
 function preventClick(event) {
   event.preventDefault();
 }
-
 document.querySelector(".event-button").addEventListener("click",preventClick);
+
+function confirmation() {
+  alert('Tack för din anmälan!');
+}
+
+
+// READ MORE...
+function preventClick(event) {
+  event.preventDefault();
+}
+document.getElementById("myBtn").addEventListener("click",preventClick);
+
+function showMore() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Läs mer"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Läs mindre"; 
+    moreText.style.display = "inline";
+  }
+}
+
+
+
 
 // Get-info
 const queryString = window.location.search;

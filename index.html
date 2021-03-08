@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="styles/hero.css">
     <link rel="stylesheet" href="styles/typography.css">
     <link rel="stylesheet" href="styles/animation.css">
+    <link rel="stylesheet" href="styles/media.css">
 </head>
 <body>
 
@@ -79,26 +80,44 @@
 <section class="talkers-cta">
 
 <article class="talkers">
+
   <div class="talker">
-    <img>
+    <picture class="speakers" id="speaker">
+      <source media="(min-width: 1300px)" srcset="/images/people/talker1-1300.jpg" />
+      <source media="(min-width: 700px)" srcset="/images/people/talker1-700.jpg" />
+      <img class="speaker" src="images/people/talker1.jpg" alt="Bild på föreläsare"/>
+  </picture>
+    <h3>Namn</h3>
+    <p>text</p>
+  </div>
+
+
+  <div class="talker">
+    <picture class="speakers" id="speaker">
+      <source media="(min-width: 1300px)" srcset="/images/people/talker2-1300.jpg" />
+      <source media="(min-width: 700px)" srcset="/images/people/talker2-700.jpg" />
+      <img class="speaker" src="images/people/talker2.jpg" alt="Bild på föreläsare"/>
+  </picture>
     <h3>Namn</h3>
     <p>text</p>
   </div>
 
   <div class="talker">
-    <img>
+    <picture class="speakers" id="speaker">
+      <source media="(min-width: 1300px)" srcset="/images/people/talker3-1300.jpg" />
+      <source media="(min-width: 700px)" srcset="/images/people/talker3-700.jpg" />
+      <img class="speaker" src="images/people/talker3.jpg" alt="Bild på föreläsare"/>
+  </picture>
     <h3>Namn</h3>
     <p>text</p>
   </div>
 
   <div class="talker">
-    <img>
-    <h3>Namn</h3>
-    <p>text</p>
-  </div>
-
-  <div class="talker">
-    <img>
+    <picture class="speakers" id="speaker">
+      <source media="(min-width: 1300px)" srcset="/images/people/talker4-1300.jpg" />
+      <source media="(min-width: 700px)" srcset="/images/people/talker4-700.jpg" />
+      <img class="speaker" src="images/people/talker4.jpg" alt="Bild på föreläsare"/>
+  </picture>
     <h3>Namn</h3>
     <p>text</p>
   </div>
@@ -122,9 +141,9 @@
               <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="example@gmail.com">
             </div>
 
-            <div class="event-button">
-              <button class="primary-button">
-                <span class="primary-button__text">Anmäl dig till evenemanget!</span>
+            <div class="register-button">
+              <button class="event-button" onclick="confirmation()">
+                <span class="event-button__text">Registrera dig!</span>
               </button>
             </div>
 <!-- 
@@ -144,23 +163,38 @@
     det behövs som mest. Delar av de hållpunkter som tas upp under eventet är; hur Smiling 
     kom till, nyfikenhet på livet, att "ragga cash" från investerare, att tänka annorlunda, 
     påsdesign, bra och billig marknadsföring, Handelns inverkan på samhället och mycket mer. 
-
+    <span id="dots">. .</span><span id="more">
     Tonaliteten är lättsam, stundvis humoristisk, men även faktabaserad och kritisk beroende 
     vilken fråga vi för tillfället pratar om. Det blir en tillställning som både är innovativ 
-    och dynamisk där vi växlar mellan bild, film och tal.  
-    </p>
+    och dynamisk där vi växlar mellan bild, film och tal.</span>
+  </p>
+  <div class="read-more">
+  <button onclick="showMore()" id="myBtn">Läs mer</button>
+  </div>  
 </article>
 
-<article class="product">
+<!-- <article class="product-quote">
+  <div class="container">
   <div class="quote"><h3>SNACK TODAY<br>FOR A BETTER<br> TOMORROW!</h3></div>
-  <div class="product-placeholder" alt="Smiling-product"></div>
-</article>
+  <picture class="smiling-product" id="product">
+    <source media="(min-width: 1300px)" srcset="/images/products/product-1300.jpg" />
+    <source media="(min-width: 700px)" srcset="/images/products/product-700.jpg" />
+    <img class="product" src="images/products/product.jpg" alt="Bild på smiling-snacks"/>
+</picture>
+
+</article> -->
 
 </section>
 
 
 <article class="products">
-    <div class="placeholder-image" alt="An assortment of Smiling-products"></div>
+
+    <picture class="smiling-products" id="products">
+      <source media="(min-width: 1000px)" srcset="/images/products/products-1300.jpg" />
+      <source media="(min-width: 500px)" srcset="/images/products/products-700.jpg" />
+      <img class="products" src="images/products/products.jpg" alt="Bild på flertalet smiling-snacks i en låda"/>
+  </picture>
+
     <a href="https://www.smiling.se/shop">
     <button class="product-button">KLICKA HÄR FÖR<br>
     ATT KOMMA TILL VÅRT<br>HÄRLIGA SORTIMENT!</button>

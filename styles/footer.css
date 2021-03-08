@@ -1,5 +1,6 @@
 footer {
-    background-color: var(--main-footer);
+    /* background-color: var(--main-footer); */
+    background-color: var(--event-text);
     width: 100%;
     height: 11rem;
     display: flex;
@@ -14,13 +15,13 @@ footer {
 }
 a .logo {
     display: flex;
-    margin: 0 2rem 0 2rem;
+    margin: 0 1rem 0 1rem;
     width: 7rem;
     justify-content: center;
     align-items: center;
 }
 .footer-link {
-    font-size: 1.2rem;
+    font-size: 18px;
     position: relative;
     color: #000;
     text-decoration: none;

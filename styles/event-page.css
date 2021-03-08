@@ -16,6 +16,7 @@
 .illustration {
     width: 100vw;
     position: relative;
+    left: 0;
 }
 
 .white-box {
@@ -23,12 +24,14 @@
     align-items: center;
     position: absolute;
     background-color: var(--event-text);
-    width: 80%;
+    opacity: 1;
+    width: 90%;
     height: 70%;
     border-radius: 2rem;
 }
 @media screen and (min-width: 700px) {
     .white-box  {
+        opacity: 1;
         width: 70%;
         height: 40%;
     }
@@ -43,7 +46,6 @@
 }
 /* GREEN SECTION */
 .green-box {
-    width: 100vw;
     height: 6rem;
     background-color: var(--main-bg);
     display: flex;
@@ -60,18 +62,18 @@
 
 /* TALKERS & FORM SECTION */
 .talkers-cta {
+    background-color: lavenderblush;
     display: flex;
     width: 100%;
     flex-direction: row;
     flex-wrap: wrap;
 }
 .talkers {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    background-color: lemonchiffon;
+    column-count: 1;
     justify-content: center;
     width: 100%;
-    padding: 8rem 0 8rem;
+    padding: 4rem 0 4rem;
 }
 .talkers img {
     width: 10rem;
@@ -80,150 +82,153 @@
 .talker {
     text-align: center;
 }
-/* .form-group {
+.form-group {
+    justify-content: center;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    padding: 8rem 0 8rem 0;
 }
 .form-group p{
     padding-bottom: 0rem;
 }
 
 .mb-3 {
+    width: 100%;
     padding-bottom: 1rem;
-} */
+}
 
-.primary-button {
+
+
+.event-button {
     display: block;
     background: transparent;
     cursor: pointer;
     position: relative;
-    width: 20rem;
+    width: 86px;
     box-sizing: border-box;
-    height: 3rem;
-    margin: 9px 0 0 9px;
+    width: 100%;
+    height: 58px;
     border: 0;
     color: white;
 }
   
-.primary-button__text {
+.event-button__text {
     position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
     top: 0;
-    right: 0;
-    bottom: 0;
+    right: 8px;
+    bottom: 8px;
     left: 0;
-    border-radius: 1rem;
+    box-sizing: border-box;
     font-size: 16px;
+    border-radius: 1rem;
     background-color: var(--main-color);
 }
   
-  .primary-button::before {
+.event-button::before {
     content: "";
     position: absolute;
     border: 2px solid var(--main-color);
-    border-radius: 1rem;
-    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.25);
-    height: 3rem;
-    top: 0;
+    box-shadow: 0 0 8px 0 var(--main-color)(0, 0, 0, 0.25);
+    top: 4px;
     right: 0;
     bottom: 0;
-    left: 7px;
+    left: 4px;
+    border-radius: 1.2rem;
+  }
+  .event-button:active {
+    outline: none;
+  }
+  .event-button:active .event-button__text {
+    transform: translateX(6px) translateY(6px);
+    transition: 0.1s;
   }
   
-  .primary-button:focus .primary-button__text {
-    box-shadow: inset 0 0 0 1px transparent, 0 0 0 1px transparent;
+.event-button:active .event-button__text {
+    box-shadow: none;
     border-radius: 1rem;
-  }
-  
-  .primary-button:focus .primary-button__text {
-    transform: translateX(-9px) translateY(-9px);
-  }
-  
-  @media screen and (-ms-high-contrast: active) {
-    .primary-button:focus {
-      outline: auto 5px black;
-    }
-  
-    .primary-button:focus .primary-button__text {
-      box-shadow: none;
-      border-radius: 0;
-    }
-  }
-
-
-
+}
 
 
 /* INFO & PRODUCT */
 .info-product {
+    display: flex;
     padding: 1rem;
     width: 100%;
     padding-bottom: 3rem;
 }
 .event-info {
-    padding: 8rem 1rem 8rem 1rem;
-
+    padding: 4rem 1rem 2rem 1rem;
+}
+#more {
+    display: none;
+}
+.read-more {
+    display: flex;
+    justify-content: center;
+}
+#myBtn {
+    background-color: var(--main-color);
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    width: 50%;
 }
 
-
-.product {
-    width: 50%;
+.product-quote {
     display: flex;
     flex-direction: row;
+    width: 100%;
+}
+.container {
+    background-color: lavender;
+    display: flex;
+    width: 100%;
+
+}
+.product-quote .product {
+    width: 100%;
 }
 .quote {
-    display: flex;
+    background-color: #FABB6B;
     align-items: center;
-    background-color: var(--event-shadow);
     font-family: 'CaveatBrush';
+    text-shadow: 1px 1px 1px #c07c23;
     text-align: center;
     width: 100%;
-    height: 20rem;
 }
 .quote h3{
     color: var(--event-text);
 }
-.product-placeholder {
-    background-color: black;
-    width: 100%;
-    height: 20rem;
-}
-/* .event-info {
-    width: 50%;
-    height: 50%;
-}
-.product-placeholder {
-    background-color: black;
-    width: 15rem;
-    height: 20rem;
-} */
 
 
 
 /* PRODUCT SECTION */
 .products {
-    padding: 4rem 1rem 4rem 1rem;
-    display: flex;
-}
-.placeholder-image {
-    background-color: black;
     width: 100%;
-    height: 30rem;
+    padding: 1rem 0 1rem 0;
+
 }
 .product-button {
-    background-color: var(--event-shadow);
-    width: 15rem;
-    height: 15rem;
+    background-color: var(--main-color);
+    box-shadow: 1px 1px 5px black;
+    width: 11rem;
+    height: 11rem;
     border-radius: 50%;
     position: absolute;
-    right: 1rem;
-    margin-top: 2rem;
+    right: 0.4rem;
+    /* margin-top: 15rem; */
+    margin-top: -3rem;
+    font-family: 'CaveatBrush';
+    color: white;
+    font-size: 18px;
+    border: none;
 }
+
 .scroll-button {
-    font-size: 1.4rem;
+    font-size: 18px;
     padding-bottom: 2rem;
 }

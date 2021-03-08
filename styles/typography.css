@@ -9,12 +9,6 @@
     font-style: normal;
     font-weight: 300;
 }
-.product-button {
-    font-family: 'CaveatBrush';
-    color: var(--event-text);
-    font-size: 1.5rem;
-    border: none;
-}
 h1 {
     font-size: 7rem;
     font-family: 'CaveatBrush';
@@ -25,15 +19,7 @@ h3 {
     font-family: 'CaveatBrush';
 }
 p {
+    /* color: var(--main-color); */
     color: var(--main-color);
-}
-span, p {
-    font-size: 1rem;
-}
-span p {
-    font-size: 1.8rem;
-    font-weight: 800;
-}
-.scroll-down {
-    padding-top: 2rem;
+    font-size: 16px;
 }
