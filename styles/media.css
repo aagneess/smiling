@@ -11,6 +11,13 @@
     p {
         font-size: 18px;
     }
+    .white-box  {
+        width: 70%;
+        height: 60%;
+    }
+    .introduction {
+        padding: 4rem;
+    }
     .smiling-products {
         max-width: 500px;
     }
@@ -24,6 +31,9 @@
 }
 
 @media screen and (min-width: 1300px) {
+    .introduction {
+        padding: 5rem;
+    }
     .info-product {
         display: flex;
     }
@@ -40,8 +50,6 @@
     }
     .products {
         width: 1000px;
-        padding: 1rem 3rem 4rem 0rem;
-        display: flex;
     }
     .product-button {
     width: 15rem;

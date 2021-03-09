@@ -43,19 +43,19 @@
 <section class="event-page">
 <div>
 
-<article class="info">
+<article class="wrapper">
 
+<section class="illustration">
   <picture class="illustration" id="illustration">
-    <source media="(min-width: 700px)" srcset="/images/back-drop-desktop.svg" />
-    <source media="(min-width: 0px)" srcset="/images/back-drop-phone.svg" />
-    <img class="illustration" src="images/back-drop-phone.svg" alt="Illustration med tropiska blad"/>
-</picture>
+    <source media="(min-width: 1000px)" srcset="/images/illustrations/back-drop-desktop.svg" />
+    <source media="(min-width: 700px)" srcset="/images/illustrations/back-drop-tablet.svg" />
+    <source media="(min-width: 400px)" srcset="/images/illustrations/back-drop-phone.svg" />
+    <img class="illustration" src="images/illustrations/narrow-phone.svg" alt="Illustration med tropiska blad"/>
+  </picture>
+</section>
 
-
-  <div class="white-box">
   <section class="introduction">
         <h3> Välkommen till vårt Smiling-gäng!</h3> <br>
-            <br>
             <p>
             När du väljer Smiling är du med och skapar hållbar utveckling
              i våra odlingsländer, på riktigt. 
@@ -67,8 +67,12 @@
             <br>
             Här nedan kan du anmäla dig till eventet samt se vårt program.
         </p>
-      </section></div>
-</article>
+  </section>
+  
+ </article>
+
+
+
 
 <article class="green-box">
   <div class="message">
@@ -169,8 +173,13 @@
     och dynamisk där vi växlar mellan bild, film och tal.</span>
   </p>
   <div class="read-more">
-  <button onclick="showMore()" id="myBtn">Läs mer</button>
+    <button class="event-button" onclick="showMore()" id="myBtn">
+      <span class="event-button__text">Läs mer</span>
+    </button>
   </div>  
+
+
+
 </article>
 
 <!-- <article class="product-quote">

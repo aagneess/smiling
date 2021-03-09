@@ -7,43 +7,27 @@
 }
 
 /* INFO SECTION */
-.info {
+.wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 .illustration {
     width: 100vw;
     position: relative;
     left: 0;
 }
 
-.white-box {
-    display: flex;
-    align-items: center;
+.introduction {
+    width: 90vw;
     position: absolute;
     background-color: var(--event-text);
-    opacity: 1;
-    width: 90%;
-    height: 70%;
+    padding: 1rem;
     border-radius: 2rem;
 }
-@media screen and (min-width: 700px) {
-    .white-box  {
-        opacity: 1;
-        width: 70%;
-        height: 40%;
-    }
-}
-.introduction {
-    padding: 0 1rem 0 1rem;
-}
-@media screen and (min-width: 1300px) {
-    .introduction {
-        padding: 0 5rem 0 5rem;
-    }
-}
+
+
+
 /* GREEN SECTION */
 .green-box {
     height: 6rem;
@@ -170,9 +154,6 @@
     justify-content: center;
 }
 #myBtn {
-    background-color: var(--main-color);
-    color: white;
-    border: none;
     border-radius: 1rem;
     padding: 0.5rem;
     width: 50%;
