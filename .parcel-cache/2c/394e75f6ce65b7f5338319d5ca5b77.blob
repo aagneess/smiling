@@ -1,0 +1,2 @@
+h1{transform:scale();animation:expand .8s}@keyframes expand{0%{opacity:0;transform:scale(0)}50%{transform:scale(1.1)}to{opacity:1;transform:scale(1)}}.invitation span{transform:scale();animation:expandP 1.8s}@keyframes expandP{0%{opacity:0;transform:scale(0)}50%{transform:scale(1.1)}to{opacity:1;transform:scale(1)}}.scroll-down{animation:slidein 3s forwards}@keyframes slidein{0%{transform:translateY(0);opacity:0}to{transform:translateY(4rem);opacity:1}}
+/*# sourceMappingURL=animation.HASH_REF_f05c99c49ac274222f9d147d9b4586b4.css.map */

@@ -26,38 +26,48 @@
     border-radius: 2rem;
 }
 
-
-
-/* GREEN SECTION */
+/* WHITE SECTION */
 .green-box {
     height: 6rem;
-    background-color: var(--main-bg);
+    background-color: var(--event-text);
     display: flex;
+    flex-direction: row;
+    margin-bottom: 3rem;
 }
 .message {
     display: flex;
-    flex-direction: row;
     align-items: center;
-    padding-right: 1rem;
+
 }
 .message h3 {
+    text-align: center;
     padding-right: 1rem;
 }
 
 /* TALKERS & FORM SECTION */
 .talkers-cta {
-    background-color: lavenderblush;
     display: flex;
     width: 100%;
     flex-direction: row;
     flex-wrap: wrap;
 }
-.talkers {
+.first-marker {
     background-color: lemonchiffon;
+    transform: skew(10deg,1deg);
+    align-items: center;
+    padding: 1rem;
+}
+.marker-text {
+    text-align: center;
+    transform: skew(-10deg,-1deg);
+}
+.talkers {
+    flex-direction: row;
+    flex-wrap: wrap;
     column-count: 1;
     justify-content: center;
     width: 100%;
-    padding: 4rem 0 4rem;
+    padding: 4rem;
 }
 .talkers img {
     width: 10rem;
@@ -66,11 +76,19 @@
 .talker {
     text-align: center;
 }
-.form-group {
-    justify-content: center;
-    width: 100%;
+.second-marker {
+    background-color: lavenderblush;
+    transform: skew(10deg,1deg);
+    padding: 1rem;
+}
+.container {
     display: flex;
-    flex-wrap: wrap;
+    max-width: 300px;
+    padding: 3rem;
+    border-radius: 2rem;
+}
+.form-group {
+    padding: 4rem;
 }
 .form-group p{
     padding-bottom: 0rem;
@@ -80,8 +98,6 @@
     width: 100%;
     padding-bottom: 1rem;
 }
-
-
 
 .event-button {
     display: block;
@@ -138,55 +154,13 @@
 
 /* INFO & PRODUCT */
 .info-product {
-    display: flex;
     padding: 1rem;
     width: 100%;
     padding-bottom: 3rem;
 }
 .event-info {
-    padding: 4rem 1rem 2rem 1rem;
+    padding-bottom: 3rem;
 }
-#more {
-    display: none;
-}
-.read-more {
-    display: flex;
-    justify-content: center;
-}
-#myBtn {
-    border-radius: 1rem;
-    padding: 0.5rem;
-    width: 50%;
-}
-
-.product-quote {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-}
-.container {
-    background-color: lavender;
-    display: flex;
-    width: 100%;
-
-}
-.product-quote .product {
-    width: 100%;
-}
-.quote {
-    background-color: #FABB6B;
-    align-items: center;
-    font-family: 'CaveatBrush';
-    text-shadow: 1px 1px 1px #c07c23;
-    text-align: center;
-    width: 100%;
-}
-.quote h3{
-    color: var(--event-text);
-}
-
-
-
 /* PRODUCT SECTION */
 .products {
     width: 100%;
@@ -201,15 +175,17 @@
     border-radius: 50%;
     position: absolute;
     right: 0.4rem;
-    /* margin-top: 15rem; */
-    margin-top: -3rem;
+    margin-top: -2rem;
     font-family: 'CaveatBrush';
     color: white;
     font-size: 18px;
     border: none;
 }
 
-.scroll-button {
+.scroll-up {
     font-size: 18px;
     padding-bottom: 2rem;
+}
+.scroll-up:active {
+    outline: 0;
 }

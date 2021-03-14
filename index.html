@@ -19,13 +19,14 @@
 <body>
 
 <div>
+
   <section class="hero">
     <article class="invitation">
 
       <h1><img class="heading" src="/images/heading.svg"></h1>
       
 
-        <span>Hej ___ !<br>
+        <span>Hej <span id="name"></span>!<br>
         Du är härmed inbjuden att<br>
         delta på vårt evenemang den<br>
         <p>19 MARS 2021</p>
@@ -44,7 +45,6 @@
 <div>
 
 <article class="wrapper">
-
 <section class="illustration">
   <picture class="illustration" id="illustration">
     <source media="(min-width: 1000px)" srcset="/images/illustrations/back-drop-desktop.svg" />
@@ -68,11 +68,7 @@
             Här nedan kan du anmäla dig till eventet samt se vårt program.
         </p>
   </section>
-  
  </article>
-
-
-
 
 <article class="green-box">
   <div class="message">
@@ -81,10 +77,14 @@
 </div>
 </article>
 
+<main>
 <section class="talkers-cta">
 
-<article class="talkers">
-
+<div class="talkers-column">
+  <div class="first-marker">
+    <h3 class="marker-text">Vi som kommer att prata på evenemanget:</h3>
+  </div>
+  <article class="talkers">
   <div class="talker">
     <picture class="speakers" id="speaker">
       <source media="(min-width: 1300px)" srcset="/images/people/talker1-1300.jpg" />
@@ -127,36 +127,45 @@
   </div>
 
 </article>
+</div>
 
+<div class="form-column">
+  <div class="second-marker">
+    <h3 class="marker-text">Här anmäler du dig till vårt event!</h3>
+  </div>
 <article class="form-group">
+  <div class="container">
         <form>
             <div class="mb-3">
              <h3>Förnamn</h3>
-              <input type="first-name" class="form-control" id="first-name" placeholder="Blixten">
+              <input type="first-name" class="form-control" id="first-name">
             </div>
 
             <div class="mb-3">
               <h3>Efternamn</h3>
-              <input type="last-name" class="form-control" id="last-name" placeholder="McQueen">
+              <input type="last-name" class="form-control" id="last-name">
             </div>
 
             <div class="mb-3">
               <h3>Email</h3>
-              <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="example@gmail.com">
+              <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
             </div>
 
             <div class="register-button">
-              <button class="event-button" onclick="confirmation()">
+              <button class="event-button">
                 <span class="event-button__text">Registrera dig!</span>
               </button>
             </div>
-<!-- 
-            <button type="" class="event-button">Anmäl dig till evenemanget!</button>
-          </form> -->
+
+          </form> 
+        </div>
 </article>
+</div>
+
 </section>
 
 <section class="info-product">
+
 
 <article class="event-info">
   <h3>
@@ -167,60 +176,39 @@
     det behövs som mest. Delar av de hållpunkter som tas upp under eventet är; hur Smiling 
     kom till, nyfikenhet på livet, att "ragga cash" från investerare, att tänka annorlunda, 
     påsdesign, bra och billig marknadsföring, Handelns inverkan på samhället och mycket mer. 
-    <span id="dots">. .</span><span id="more">
     Tonaliteten är lättsam, stundvis humoristisk, men även faktabaserad och kritisk beroende 
     vilken fråga vi för tillfället pratar om. Det blir en tillställning som både är innovativ 
-    och dynamisk där vi växlar mellan bild, film och tal.</span>
+    och dynamisk där vi växlar mellan bild, film och tal.
   </p>
-  <div class="read-more">
-    <button class="event-button" onclick="showMore()" id="myBtn">
-      <span class="event-button__text">Läs mer</span>
-    </button>
-  </div>  
-
-
-
 </article>
-
-<!-- <article class="product-quote">
-  <div class="container">
-  <div class="quote"><h3>SNACK TODAY<br>FOR A BETTER<br> TOMORROW!</h3></div>
-  <picture class="smiling-product" id="product">
-    <source media="(min-width: 1300px)" srcset="/images/products/product-1300.jpg" />
-    <source media="(min-width: 700px)" srcset="/images/products/product-700.jpg" />
-    <img class="product" src="images/products/product.jpg" alt="Bild på smiling-snacks"/>
-</picture>
-
-</article> -->
-
-</section>
-
 
 <article class="products">
-
-    <picture class="smiling-products" id="products">
-      <source media="(min-width: 1000px)" srcset="/images/products/products-1300.jpg" />
-      <source media="(min-width: 500px)" srcset="/images/products/products-700.jpg" />
-      <img class="products" src="images/products/products.jpg" alt="Bild på flertalet smiling-snacks i en låda"/>
-  </picture>
-
     <a href="https://www.smiling.se/shop">
     <button class="product-button">KLICKA HÄR FÖR<br>
-    ATT KOMMA TILL VÅRT<br>HÄRLIGA SORTIMENT!</button>
+      ATT KOMMA TILL VÅRT<br>HÄRLIGA SORTIMENT!</button>
     </a>
+  <picture class="smiling-products" id="products">
+    <source media="(min-width: 1000px)" srcset="/images/products/products-1300.jpg" />
+    <source media="(min-width: 500px)" srcset="/images/products/products-700.jpg" />
+    <img class="products" src="images/products/products.jpg" alt="Bild på flertalet smiling-snacks i en låda"/>
+  </picture>
+  
 </article>
 
+  
+</section>
 
 
 
     <!-- SCROLL TO TOP -->
      
     <div class="d-grid gap-2">
-        <button onclick="topFunction()" class="btn scroll-button" id="btn" title="Scroll to top">↑ Scroll to Top</button>
+      <button class="btn scroll-up" title="Scroll to top">↑ Scroll to Top</button>
     </div>
     
 
-</div>
+</main>
+
 </section>
 
     <footer>

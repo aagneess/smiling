@@ -1,0 +1,52 @@
+'use strict';
+
+fetch('people.json').then(response => response.json()).then(invites => {
+  // Add each actor to the DOM as an article.
+  invites.people.forEach(invite => addInvite(invite));
+}); // fetch('people.json')
+// .then(response => response.json())
+// .then(people => {
+//   const firstName = document.createElement('h4');
+//   firstName.innerText = `Name: ${people['firstName']}`
+//   const lastName = document.createElement('h4');
+//   lastName.innerText = `Name: ${people['lastName']}`
+// const email = document.createElement('h4');
+//   email.innerText = `${people['firstName']}.${people['lastName']}@outlook.com`
+//   document.body.appendChild(firstName)
+//   document.body.appendChild(lastName)
+//   document.body.appendChild(email)
+// });
+
+console.log(`${people['lastName']}`);
+fetch('people.json').then(response => response.json()).then(people => console.log(people)); // Get-info
+
+var urlParams = new URLSearchParams(window.location.search);
+console.log(urlParams.get('id')); // http://127.0.0.1:5500/index.html?id=0
+// Scroll to event
+
+const down = document.querySelector(".scroll-down");
+const element = document.querySelector(".event-page");
+down.addEventListener("click", () => {
+  element.scrollIntoView({
+    behavior: 'smooth',
+    block: 'start'
+  });
+}); // Scroll to top
+
+const up = document.querySelector(".scroll-up");
+up.addEventListener("click", () => {
+  element.scrollIntoView({
+    behavior: 'smooth',
+    block: 'start'
+  });
+}); // PREVENT RELOAD ON EVENT-BUTTON + CONFIRMATION
+
+function preventClick(event) {
+  event.preventDefault();
+}
+
+document.querySelector(".event-button, .expand-button").addEventListener("click", preventClick);
+
+function confirmation() {
+  alert('Tack för din anmälan!');
+}

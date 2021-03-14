@@ -1,0 +1,229 @@
+.event-page {
+    width: 100%;
+    background-color: var(--event-bg);
+    top: 0;
+    left: 0;
+    display: flex;
+}
+
+/* INFO SECTION */
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.illustration {
+    width: 100vw;
+    position: relative;
+    left: 0;
+}
+
+.introduction {
+    width: 90vw;
+    position: absolute;
+    background-color: var(--event-text);
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+/* GREEN SECTION */
+.green-box {
+    height: 6rem;
+    background-color: var(--main-bg);
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3rem;
+}
+.message {
+    display: flex;
+    align-items: center;
+
+}
+.message h3 {
+    text-align: center;
+    padding-right: 1rem;
+}
+
+/* TALKERS & FORM SECTION */
+.talkers-cta {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.first-marker {
+    background-color: lemonchiffon;
+    position: relative;
+    transform: skew(10deg,2deg);
+    align-items: center;
+    padding: 2rem;
+}
+.marker-text {
+    text-align: center;
+}
+.talkers {
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-count: 1;
+    justify-content: center;
+    width: 100%;
+    padding: 4rem;
+}
+.talkers img {
+    width: 10rem;
+    margin: auto;
+}
+.talker {
+    text-align: center;
+}
+.second-marker {
+    background-color: lavenderblush;
+    transform: skew(10deg,1deg);
+    padding: 2rem;
+}
+.container {
+    background-color: lavender;
+    display: flex;
+    max-width: 300px;
+    padding: 3rem;
+    border-radius: 2rem;
+}
+.form-group {
+    padding: 4rem;
+}
+.form-group p{
+    padding-bottom: 0rem;
+}
+
+.mb-3 {
+    width: 100%;
+    padding-bottom: 1rem;
+}
+
+
+
+.event-button {
+    display: block;
+    background: transparent;
+    cursor: pointer;
+    position: relative;
+    width: 86px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 58px;
+    border: 0;
+    color: white;
+}
+  
+.event-button__text {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    right: 8px;
+    bottom: 8px;
+    left: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    border-radius: 1rem;
+    background-color: var(--main-color);
+}
+  
+.event-button::before {
+    content: "";
+    position: absolute;
+    border: 2px solid var(--main-color);
+    box-shadow: 0 0 8px 0 var(--main-color)(0, 0, 0, 0.25);
+    top: 4px;
+    right: 0;
+    bottom: 0;
+    left: 4px;
+    border-radius: 1.2rem;
+  }
+  .event-button:active {
+    outline: none;
+  }
+  .event-button:active .event-button__text {
+    transform: translateX(6px) translateY(6px);
+    transition: 0.1s;
+  }
+  
+.event-button:active .event-button__text {
+    box-shadow: none;
+    border-radius: 1rem;
+}
+
+
+/* INFO & PRODUCT */
+.info-product {
+    display: flex;
+    padding: 1rem;
+    width: 100%;
+    padding-bottom: 3rem;
+}
+.event-info {
+    padding: 4rem 1rem 2rem 1rem;
+}
+#more {
+    display: none;
+}
+.read-more {
+    display: flex;
+    justify-content: center;
+}
+#myBtn {
+    border-radius: 1rem;
+    padding: 0.5rem;
+    width: 50%;
+}
+
+/* .product-quote {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.product-quote .product {
+    width: 100%;
+}
+.quote {
+    background-color: #FABB6B;
+    align-items: center;
+    font-family: 'CaveatBrush';
+    text-shadow: 1px 1px 1px #c07c23;
+    text-align: center;
+    width: 100%;
+}
+.quote h3{
+    color: var(--event-text);
+} */
+
+
+
+/* PRODUCT SECTION */
+.products {
+    width: 100%;
+    padding: 1rem 0 1rem 0;
+
+}
+.product-button {
+    background-color: var(--main-color);
+    box-shadow: 1px 1px 5px black;
+    width: 11rem;
+    height: 11rem;
+    border-radius: 50%;
+    position: absolute;
+    right: 0.4rem;
+    /* margin-top: 15rem; */
+    margin-top: -3rem;
+    font-family: 'CaveatBrush';
+    color: white;
+    font-size: 18px;
+    border: none;
+}
+
+.scroll-up {
+    font-size: 18px;
+    padding-bottom: 2rem;
+}
