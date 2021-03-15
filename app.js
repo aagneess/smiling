@@ -18,8 +18,6 @@ fetch('people.json')
       document.getElementById("last-name").value = invite.lastName;
       document.getElementById("email").value = `${invite.firstName}.${invite.lastName}@outlook.com`;
       
-    
-    
     }
 
 });
