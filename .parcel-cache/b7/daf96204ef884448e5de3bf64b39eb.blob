@@ -1,2 +1,0 @@
-:root{--event-text:#fff9f1;--main-color:#363636;--event-color:#e1b581}@font-face{font-family:CaveatBrush;src:url(CaveatBrush-Regular.HASH_REF_d3e2978342ba7df7bd35df1d7ecabad1.woff);font-style:normal;font-weight:300}h1{font-size:7rem}h1,h3{font-family:CaveatBrush}h3,p{color:var(--main-color)}p{font-size:16px}
-/*# sourceMappingURL=index.HASH_REF_19ed6393cbb2e7f587c058a16443ee59.css.map */
