@@ -1,0 +1,55 @@
+:root {
+    --event-text: #FFF9F1;
+    --main-color: #363636;
+    --event-color: #E1B581;
+}
+@font-face {
+    font-family: 'CaveatBrush';
+    src: url("0252ed41ba23c9d56bff993eaad54f1b");
+    font-style: normal;
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url("f449f510549562fd00b17e7fef559a97");
+    font-style: normal;
+    
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url("4ac5570cf6e8017f96113df0987f475d");
+    font-style: normal;
+    
+}
+h1 {
+    font-size: 7rem;
+    /* font-family: 'CaveatBrush'; */
+}
+h3 {
+    color: var(--main-color);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Roboto-Bold';
+}
+h4 {
+    color: var(--main-color);
+    font-family: 'CaveatBrush';
+}
+.hero-text, p {
+    /* color: var(--main-color); */
+    color: var(--main-color);
+    font-size: 18px;
+    font-family: 'Roboto';
+}
+.event-button__text {
+    font-family: 'Roboto';
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: 800;
+
+}
+.scroll-up, .footer-link {
+    color: var(--main-color);
+    text-transform: uppercase;
+    font-family: 'Roboto-Bold';
+}

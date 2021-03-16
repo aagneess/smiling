@@ -1,4 +1,5 @@
 'use strict'
+import people from './people.json';
 
 // Scroll to event
 const down = document.querySelector(".scroll-down");
@@ -34,10 +35,8 @@ document.querySelector(".event-button").addEventListener("click",confirmation);
 const urlParams = new URLSearchParams(window.location.search);
 const id = urlParams.get('id');
 
-fetch('people.json')
-.then(response => response.json())
-.then(invites => {
-  invites.people.forEach(invite => {
+
+  people.people.forEach(invite => {
 
     if(id == invite.id) {
       
@@ -51,5 +50,4 @@ fetch('people.json')
       
     }
 
-});
 });
