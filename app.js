@@ -1,5 +1,36 @@
 'use strict'
 
+// Scroll to event
+const down = document.querySelector(".scroll-down");
+const element = document.querySelector(".event-page");
+
+  down.addEventListener("click", () => {
+  element.scrollIntoView({ behavior: 'smooth', block: 'start'});
+});
+
+// Scroll to top
+const up = document.querySelector(".scroll-up");
+
+  up.addEventListener("click", () => {
+  element.scrollIntoView({ behavior: 'smooth', block: 'start'});
+});
+
+// PREVENT RELOAD ON EVENT-BUTTON + CONFIRMATION
+function preventClick(event) {
+  event.preventDefault();
+}
+
+document.querySelector(".event-button").addEventListener("click",preventClick);
+
+function confirmation() {
+  alert('Tack för din anmälan!');
+}
+
+document.querySelector(".event-button").addEventListener("click",confirmation);
+
+
+// JSON + Query Parameters
+
 const urlParams = new URLSearchParams(window.location.search);
 const id = urlParams.get('id');
 
@@ -22,34 +53,3 @@ fetch('people.json')
 
 });
 });
-
-// Scroll to event
-const down = document.querySelector(".scroll-down");
-const element = document.querySelector(".event-page");
-
-  down.addEventListener("click", () => {
-  element.scrollIntoView({ behavior: 'smooth', block: 'start'});
-});
-
-// Scroll to top
-const up = document.querySelector(".scroll-up");
-
-  up.addEventListener("click", () => {
-  element.scrollIntoView({ behavior: 'smooth', block: 'start'});
-});
-
-
-
-
-// PREVENT RELOAD ON EVENT-BUTTON + CONFIRMATION
-function preventClick(event) {
-  event.preventDefault();
-}
-
-document.querySelector(".event-button").addEventListener("click",preventClick);
-
-function confirmation() {
-  alert('Tack för din anmälan!');
-}
-
-document.querySelector(".event-button").addEventListener("click",confirmation);
