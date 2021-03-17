@@ -1,0 +1,181 @@
+h1 {
+    transform: scale();
+    animation: expand 0.8s;
+}
+@keyframes expand {
+    0% {
+        opacity: 0;
+        transform: scale(0);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.invitation span {
+    transform: scale();
+    animation: expandP 1.8s;
+}
+@keyframes expandP {
+    0% {
+        opacity: 0;
+        transform: scale(0);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.scroll-down {
+    animation: 3s slidein forwards;
+}
+@keyframes slidein {
+    from {
+        transform: translateY(0);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(4rem);
+        opacity: 1;
+    }
+}
+
+/* leaf animations */
+.leaf {
+    position: absolute;
+    width: 12rem;
+    margin-top: 37rem;
+    left: -2rem;
+    z-index: 99;
+    animation: leaf 9s infinite;
+    transform-origin: bottom left;
+}
+
+@keyframes leaf {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(15deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.leaf2 {
+    position: absolute;
+    width: 12rem;
+    right: -3rem;
+    margin-top: 1rem;
+    z-index: 99;
+    animation: leaf2 6s ease infinite;
+    transform-origin: bottom right;
+}
+
+@keyframes leaf2 {
+    0% {
+        transform: rotate(5deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(5deg);
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .leaf {
+        width: 15rem;
+        left: -5rem;
+        padding-top: 9rem;
+    }
+    .leaf2 {
+        width: 12rem;
+        padding-top: 25rem;
+    }
+}
+@media screen and (min-width: 700px) {
+    .leaf {
+        width: 20rem;
+        padding-top: 10rem;
+        left: -6rem;
+    }
+    .leaf2 {
+        padding-top: 25rem;
+        right: -5rem;
+        width: 15rem;
+    }
+}
+@media screen and (min-width: 1000px) {
+    .leaf {
+        width: 15rem;
+        top: 17rem;
+    }
+    .leaf2 {
+        margin-top: -10rem;
+        right: -5rem;
+        width: 15rem;
+    }
+}
+@media screen and (min-width: 1300px) {
+    .leaf {
+        width: 33rem;
+        top: -3rem;
+        left: -9rem;
+    }
+    .leaf2 {
+        width: 40rem;
+        right: -4rem;
+    }
+}
+@media screen and (min-width: 1520px) {
+    .leaf {
+        width: 30rem;
+        margin-top: -3rem;
+        left: -9rem;
+    }
+    .leaf2 {
+        width: 40rem;
+        right: -4rem;
+    }
+}
+
+/* ipad pro 
+@media only screen and (min-device-width: 1024px) and (max-device-height: 1366px) {
+    .leaf {
+        width: 25rem;
+        left: -3rem;
+        margin-top: -9rem;
+    }
+    .leaf2 {
+        margin-top: -20rem;
+        width: 30rem;
+        right: -4rem;
+    }
+}
+ galaxy fold  
+@media only screen and (min-device-width: 280px) and (max-device-height: 653px) {
+    .leaf {
+        display: none;
+    }
+    .leaf2 {
+        margin-top: -3rem;
+        width: 12rem;
+        right: -2rem;
+    }
+} 
+*/
