@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Smiling Event | Snack today for a better tomorrow!">
+    <meta property="og:url" content="smilingevent.netlify.app">
+    <meta property="og:image" content="https://static.wixstatic.com/media/ae7351_16998faaa3b443868b2ca5d674a6e9f8~mv2_d_1754_1241_s_2.png/v1/fill/w_420,h_228,al_c,usm_0.66_1.00_0.01/ae7351_16998faaa3b443868b2ca5d674a6e9f8~mv2_d_1754_1241_s_2.png">
+    <title>Smiling Event</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="/index.HASH_REF_a1c16422f9acd1322fe92a51264f804d.css">
+    <link rel="stylesheet" href="/index.HASH_REF_0a44ccfedb3759586336807e4202643f.css">
+    <link rel="stylesheet" href="/index.HASH_REF_14750a40c88cd52c0e40067823a3846a.css">
+    <link rel="stylesheet" href="/index.HASH_REF_3881d36e05580cd49f0cfbcae4e5133d.css">
+    <link rel="stylesheet" href="/index.HASH_REF_19ed6393cbb2e7f587c058a16443ee59.css">
+    <link rel="stylesheet" href="/index.HASH_REF_85721a1bf0c731d13e8771a9f0178103.css">
+    <link rel="stylesheet" href="/index.HASH_REF_d352faeb7e22435b46c3d6c8eaa554be.css">
+</head>
+<body>
+
+<div>
+
+  <section class="hero">
+    <article class="invitation">
+
+      <h1><img class="heading" src="/heading.HASH_REF_3c460278639d38665c7e931ab3f68334.svg" alt="You are invited!"></h1>
+      
+
+        <span class="hero-text">
+        Hej <span id="name"></span>!<br>
+        Du är härmed inbjuden att<br>
+        delta på vårt evenemang den<br>
+        <h2>19 MARS 2021</h2>
+        Tryck på pilen nedan för mer<br>
+        information om eventet!
+        
+        </span>
+        <button class="scroll-down"><img src="/down.HASH_REF_6be818e1d43564148b32d505899a1b70.svg" alt="Knapp för neråt-scroll">
+        </button>
+
+    </article>
+  </section>
+</div>
+
+
+<section class="event-page">
+<div>
+
+  <section class="animation1">
+    <picture class="leaf" id="leaf">
+      <source media="(min-width: 1000px)" srcset="/index.html">
+      <img class="leaf" src="/index.html" alt="Illustration med tropiska blad">
+      </picture>
+  </section>
+
+  <section class="animation2">
+    <picture class="leaf2" id="leaf2">
+      <source media="(min-width: 1000px)" srcset="/index.html">
+      <img class="leaf2" src="/index.html" alt="Illustration med tropiska blad">
+      </picture>
+  </section>
+
+<article class="wrapper">
+<section class="illustration">
+  <picture class="illustration" id="illustration">
+    <source media="(min-width: 1000px)" srcset="/back-drop-desktop.HASH_REF_b6f57c182125bc5b2c126c9e6013b949.svg">
+    <source media="(min-width: 700px)" srcset="/back-drop-tablet.HASH_REF_5be372ba1443e600ed2df7ab1ffdd506.svg">
+    <source media="(min-width: 400px)" srcset="/back-drop-phone.HASH_REF_8240b8469c9ade2b38d029be1ba5a84e.svg">
+    <img class="illustration" src="/narrow-phone.HASH_REF_1537f79337c0c79a9dcc947b173d00e8.svg" alt="Illustration med tropiska blad">
+  </picture>
+</section>
+
+
+  <section class="introduction">
+        <h2> Välkommen till vårt Smiling-gäng!</h2> <br>
+            <p>
+            När du väljer Smiling är du med och skapar hållbar utveckling
+             i våra odlingsländer, på riktigt. 
+            Vi ser framemot att få dela vår vision med dig. 
+            Vi är övertygade om att handel, snarare än bistånd, 
+            skapar långsiktig utveckling där det behövs som mest. 
+            Vi ser framemot att få dela vår vision med dig, och med din hjälp kan 
+            vi sprida denna kunskap vidare.<br>
+            <br>
+            Här nedan kan du anmäla dig till eventet samt se vårt program.
+        </p>
+  </section>
+ </article>
+
+<article class="green-box">
+  <div class="message">
+  <h3>Keep on </h3>
+  <img class="logo" width="100px" src="/smiling.HASH_REF_a76e9d78e7612b3864c8e257581185da.png" alt="smiling logo">
+</div>
+</article>
+
+<main>
+<section class="talkers-cta">
+
+<div class="talkers-column">
+  <div class="first-marker">
+    <h2 class="marker-text">Vi som kommer att prata på eventet:</h2>
+  </div>
+  <article class="talkers">
+  <div class="talker">
+    <picture class="speakers" id="speaker">
+      <source media="(min-width: 1300px)" srcset="/talker1-1300.HASH_REF_821ec465a53cdd860ff849e3f01b1cfc.jpg">
+      <source media="(min-width: 700px)" srcset="/talker1-700.HASH_REF_34e42294c637549cc368f3fa3cf6d151.jpg">
+      <img class="speaker" src="/talker1.HASH_REF_59c2b992d1a543a6a56ab0ed748d984b.jpg" alt="Bild på föreläsare">
+  </picture>
+    <h2>Namn</h2>
+    <p>VD och logistik</p>
+  </div>
+
+
+  <div class="talker">
+    <picture class="speakers" id="speaker">
+      <source media="(min-width: 1300px)" srcset="/talker2-1300.HASH_REF_dc7db6bd7f4eeef338c1bf2569c56aee.jpg">
+      <source media="(min-width: 700px)" srcset="/talker2-700.HASH_REF_d173a3d21ea831ead029383bc2ecc451.jpg">
+      <img class="speaker" src="/talker2.HASH_REF_2ef9792d695ca8c306a104535bead585.jpg" alt="Bild på föreläsare">
+  </picture>
+    <h2>Namn</h2>
+    <p>Ekonomi och orderansvarig</p>
+  </div>
+
+  <div class="talker">
+    <picture class="speakers" id="speaker">
+      <source media="(min-width: 1300px)" srcset="/talker3-1300.HASH_REF_b0cd1bb4f63b42e1aa289ca0f4ab56b2.jpg">
+      <source media="(min-width: 700px)" srcset="/talker3-700.HASH_REF_0fd658d4fbfbd0c99518262975deab48.jpg">
+      <img class="speaker" src="/talker3.HASH_REF_e5f95aa8a7e2a9a6ed885502fec995f1.jpg" alt="Bild på föreläsare">
+  </picture>
+    <h2>Namn</h2>
+    <p>PR och marknadsansvarig</p>
+  </div>
+
+  <div class="talker">
+    <picture class="speakers" id="speaker">
+      <source media="(min-width: 1300px)" srcset="/talker4-1300.HASH_REF_e7df9657083439d54ef9b31ab3a55caa.jpg">
+      <source media="(min-width: 700px)" srcset="/talker4-700.HASH_REF_b7e73bba8ada05922bd22f054dc8585c.jpg">
+      <img class="speaker" src="/talker4.HASH_REF_7b5cff910c9944be75a1e7ed6443d17a.jpg" alt="Bild på föreläsare">
+  </picture>
+    <h2>Namn</h2>
+    <p>Försäljning</p>
+  </div>
+
+</article>
+</div>
+
+<div class="form-column">
+  <div class="second-marker">
+    <h2 class="marker-text">Här anmäler du dig till evenemanget!</h2>
+  </div>
+<article class="form-group">
+  <div class="container">
+        <form>
+            <div class="mb-3">
+             <h2>Förnamn</h2>
+              <input type="first-name" class="form-control" id="first-name">
+            </div>
+
+            <div class="mb-3">
+              <h2>Efternamn</h2>
+              <input type="last-name" class="form-control" id="last-name">
+            </div>
+
+            <div class="mb-3">
+              <h2>Email</h2>
+              <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+            </div>
+
+            <div class="register-button">
+              <button class="event-button">
+                <span class="event-button__text">Registrera dig!</span>
+              </button>
+            </div>
+
+          </form> 
+        </div>
+</article>
+</div>
+
+</section>
+
+<section class="info-product">
+
+
+<article class="event-info">
+  <h2>
+    Vi ser framemot att få dela vår vision med dig och välkomna dig till vårt Smiling-gäng.
+    Med din hjälp kan vi sprida denna kunskap vidare. 
+  </h2>
+  <p>Vi är övertygade om att handel, snarare än bistånd, skapar långsiktig utveckling där 
+    det behövs som mest. Delar av de hållpunkter som tas upp under eventet är; hur Smiling 
+    kom till, nyfikenhet på livet, att "ragga cash" från investerare, att tänka annorlunda, 
+    påsdesign, bra och billig marknadsföring, Handelns inverkan på samhället och mycket mer. 
+    Tonaliteten är lättsam, stundvis humoristisk, men även faktabaserad och kritisk beroende 
+    vilken fråga vi för tillfället pratar om. Det blir en tillställning som både är innovativ 
+    och dynamisk där vi växlar mellan bild, film och tal.
+  </p>
+</article>
+
+<article class="products">
+
+    <a href="https://www.smiling.se/shop">
+    <button class="product-button">KLICKA HÄR FÖR<br>
+      ATT KOMMA TILL VÅRT<br>HÄRLIGA SORTIMENT!</button>
+    </a>
+
+    <a href="https://www.smiling.se/shop">
+    
+    <div class="hover-wrapper">
+      KLICKA HÄR FÖR<br>
+      ATT KOMMA TILL VÅRT<br>HÄRLIGA SORTIMENT! 
+    <div class="overlay"></div>
+    </div>
+
+  </a>
+
+  <picture class="smiling-products" id="products">
+    <source media="(min-width: 1000px)" srcset="/products-1300.HASH_REF_3b6b4c352a61d6240b7e75e5f8451db9.jpg">
+    <source media="(min-width: 500px)" srcset="/products-700.HASH_REF_ff0cb6793a6f691a6191fbde42fbf325.jpg">
+    <img class="products" src="/products.HASH_REF_c6e9769a376ae27f4bc848c703238084.jpg" alt="Bild på flertalet smiling-snacks">
+  </picture>
+
+</article>
+
+  
+</section>
+
+
+
+    <!-- SCROLL TO TOP -->
+     
+    <div class="d-grid gap-2">
+      <button class="btn scroll-up" title="Scroll to top">↑ Scroll to Top</button>
+    </div>
+    
+
+</main>
+
+</div></section>
+
+    <footer>
+    <section class="footer-section">
+
+        <article class="event-host">
+            <a class="footer-link" href="https://www.smiling.se/bloggen">Vår blogg!</a>
+            <a href="https://www.smiling.se"><img class="logo" src="/smiling.HASH_REF_a76e9d78e7612b3864c8e257581185da.png" alt="smiling logo"></a>
+            <a class="footer-link" href="https://www.smiling.se/kontakt">Om oss</a>
+        </article>
+
+    </section>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.4/lottie.min.js"></script>
+    <script src="/index.HASH_REF_93fc641134a1899a58ddc34cca6a39bd.js"></script>
+    <script src="/index.HASH_REF_147c3be9838f78fc816d5dfc1397955d.js"></script>
+</body>
+</html>

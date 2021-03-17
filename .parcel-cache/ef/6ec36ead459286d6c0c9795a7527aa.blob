@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Smiling Event | Snack today for a better tomorrow!">
+    <meta property="og:url" content="smilingevent.netlify.app">
+    <meta property="og:image" content="dd8733fedda989c15fdae462d6e34ca4">
+    <title>Smiling Event</title>
+
+    <link href="2aeaa591e8618a03998e64473e6214b5" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="432c6f4f7797d6bd00727f34b80e6972">
+    <link rel="stylesheet" href="9be636ffa9d179f10c27bb9c41360689">
+    <link rel="stylesheet" href="d5d9251c72853e9604e42091c2bb2f25">
+    <link rel="stylesheet" href="129672577070359888a5fc26174221f4">
+    <link rel="stylesheet" href="b61eb07eb5a358413cc5614a69b0704a">
+    <link rel="stylesheet" href="ae8dcb40bd4f6d40331eedac445f4913">
+    <link rel="stylesheet" href="75111033abbd164849c72b3ab2a1b44a">
+</head>
+<body>
+
+<div>
+
+  <section class="hero">
+    <article class="invitation">
+
+      <h1><img class="heading" src="a67d7af818584d13dd7ff9d91aca8901" alt="You are invited!"></h1>
+      
+
+        <span class="hero-text">
+        Hej <span id="name"></span>!<br>
+        Du är härmed inbjuden att<br>
+        delta på vårt evenemang den<br>
+        <h2>19 MARS 2021</h2>
+        Tryck på pilen nedan för mer<br>
+        information om eventet!
+        
+        </span>
+        <button class="scroll-down"><img src="dd7fea633c81ef6a8e4782b054aa4146" alt="Knapp för neråt-scroll">
+        </button>
+
+    </article>
+  </section>
+</div>
+
+
+<section class="event-page">
+<div>
+
+  <section class="animation1">
+    <picture class="leaf" id="leaf">
+      <source media="(min-width: 1000px)" srcset="24b21208c1893f5fd07645c61e23e110">
+      <img class="leaf" src="24b21208c1893f5fd07645c61e23e110" alt="Illustration med tropiska blad">
+      </picture>
+  </section>
+
+  <section class="animation2">
+    <picture class="leaf2" id="leaf2">
+      <source media="(min-width: 1000px)" srcset="24b21208c1893f5fd07645c61e23e110">
+      <img class="leaf2" src="24b21208c1893f5fd07645c61e23e110" alt="Illustration med tropiska blad">
+      </picture>
+  </section>
+
+<article class="wrapper">
+<section class="illustration">
+  <picture class="illustration" id="illustration">
+    <source media="(min-width: 1000px)" srcset="c187176363382a7cfbe35e71b4ad4a3a">
+    <source media="(min-width: 700px)" srcset="00e33ab0ff1f1201d6babdebd24021a5">
+    <source media="(min-width: 400px)" srcset="fc276b8c81618438ebfb9d3ce8e697d7">
+    <img class="illustration" src="9ba5820ed506cd9a1ef9029f14aadaaa" alt="Illustration med tropiska blad">
+  </picture>
+</section>
+
+
+  <section class="introduction">
+        <h2> Välkommen till vårt Smiling-gäng!</h2> <br>
+            <p>
+            När du väljer Smiling är du med och skapar hållbar utveckling
+             i våra odlingsländer, på riktigt. 
+            Vi ser framemot att få dela vår vision med dig. 
+            Vi är övertygade om att handel, snarare än bistånd, 
+            skapar långsiktig utveckling där det behövs som mest. 
+            Vi ser framemot att få dela vår vision med dig, och med din hjälp kan 
+            vi sprida denna kunskap vidare.<br>
+            <br>
+            Här nedan kan du anmäla dig till eventet samt se vårt program.
+        </p>
+  </section>
+ </article>
+
+<article class="green-box">
+  <div class="message">
+  <h3>Keep on </h3>
+  <img class="logo" width="100px" src="eb0250d9ffb65125aa28b784b7fed903" alt="smiling logo">
+</div>
+</article>
+
+<main>
+<section class="talkers-cta">
+
+<div class="talkers-column">
+  <div class="first-marker">
+    <h2 class="marker-text">Vi som kommer att prata på eventet:</h2>
+  </div>
+  <article class="talkers">
+  <div class="talker">
+    <picture class="speakers" id="speaker">
+      <source media="(min-width: 1300px)" srcset="61cbf4d42b6c4d7678c73313153765ae">
+      <source media="(min-width: 700px)" srcset="4217a9597133e7d00de3ed85901735dd">
+      <img class="speaker" src="b9df4645ea97024a7c325599c05a5c47" alt="Bild på föreläsare">
+  </picture>
+    <h2>Namn</h2>
+    <p>VD och logistik</p>
+  </div>
+
+
+  <div class="talker">
+    <picture class="speakers" id="speaker">
+      <source media="(min-width: 1300px)" srcset="dd9448bc04eeb774decb277ce9029fc7">
+      <source media="(min-width: 700px)" srcset="4b9244646ca143bcd41213eddb90612d">
+      <img class="speaker" src="8c5d45f5dee1bec39fb092b0fd9d5881" alt="Bild på föreläsare">
+  </picture>
+    <h2>Namn</h2>
+    <p>Ekonomi och orderansvarig</p>
+  </div>
+
+  <div class="talker">
+    <picture class="speakers" id="speaker">
+      <source media="(min-width: 1300px)" srcset="cb3628fa959918e5e22f506e6800e03c">
+      <source media="(min-width: 700px)" srcset="a1dae3426d71921a669791ba840b2c6a">
+      <img class="speaker" src="648866c7926b1fb5eec69bdf6799761e" alt="Bild på föreläsare">
+  </picture>
+    <h2>Namn</h2>
+    <p>PR och marknadsansvarig</p>
+  </div>
+
+  <div class="talker">
+    <picture class="speakers" id="speaker">
+      <source media="(min-width: 1300px)" srcset="76dcbb65def1ed2a4e2ec5ccaab33279">
+      <source media="(min-width: 700px)" srcset="0eaa95be8f16da7819dbdc31cc628273">
+      <img class="speaker" src="888c0120dea6adfd9fbcdfffccd5206a" alt="Bild på föreläsare">
+  </picture>
+    <h2>Namn</h2>
+    <p>Försäljning</p>
+  </div>
+
+</article>
+</div>
+
+<div class="form-column">
+  <div class="second-marker">
+    <h2 class="marker-text">Här anmäler du dig till evenemanget!</h2>
+  </div>
+<article class="form-group">
+  <div class="container">
+        <form>
+            <div class="mb-3">
+             <h2>Förnamn</h2>
+              <input type="first-name" class="form-control" id="first-name">
+            </div>
+
+            <div class="mb-3">
+              <h2>Efternamn</h2>
+              <input type="last-name" class="form-control" id="last-name">
+            </div>
+
+            <div class="mb-3">
+              <h2>Email</h2>
+              <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+            </div>
+
+            <div class="register-button">
+              <button class="event-button">
+                <span class="event-button__text">Registrera dig!</span>
+              </button>
+            </div>
+
+          </form> 
+        </div>
+</article>
+</div>
+
+</section>
+
+<section class="info-product">
+
+
+<article class="event-info">
+  <h2>
+    Vi ser framemot att få dela vår vision med dig och välkomna dig till vårt Smiling-gäng.
+    Med din hjälp kan vi sprida denna kunskap vidare. 
+  </h2>
+  <p>Vi är övertygade om att handel, snarare än bistånd, skapar långsiktig utveckling där 
+    det behövs som mest. Delar av de hållpunkter som tas upp under eventet är; hur Smiling 
+    kom till, nyfikenhet på livet, att "ragga cash" från investerare, att tänka annorlunda, 
+    påsdesign, bra och billig marknadsföring, Handelns inverkan på samhället och mycket mer. 
+    Tonaliteten är lättsam, stundvis humoristisk, men även faktabaserad och kritisk beroende 
+    vilken fråga vi för tillfället pratar om. Det blir en tillställning som både är innovativ 
+    och dynamisk där vi växlar mellan bild, film och tal.
+  </p>
+</article>
+
+<article class="products">
+
+    <a href="bf13562ce110c7489fc43655aa8e94ff">
+    <button class="product-button">KLICKA HÄR FÖR<br>
+      ATT KOMMA TILL VÅRT<br>HÄRLIGA SORTIMENT!</button>
+    </a>
+
+    <a href="bf13562ce110c7489fc43655aa8e94ff">
+    <div class="hover-wrapper"></div>
+  
+    <p class="hover-text">
+    KLICKA HÄR FÖR ATT 
+    KOMMA TILL VÅRT 
+    HÄRLIGA SORTIMENT!</p>
+    
+    <div class="overlay"></div>
+    
+    
+  <picture class="smiling-products" id="products">
+    <source media="(min-width: 1000px)" srcset="707ebbe1387aede23fc1beee7226e92b">
+    <source media="(min-width: 500px)" srcset="8d1889b89818d2e42f7cac47781b31d0">
+    <img class="products" src="295311d43060085ff9cd3a157c9e2a33" alt="Bild på flertalet smiling-snacks">
+  </picture>
+</a>
+
+</article>
+
+  
+</section>
+
+
+
+    <!-- SCROLL TO TOP -->
+     
+    <div class="d-grid gap-2">
+      <button class="btn scroll-up" title="Scroll to top">↑ Scroll to Top</button>
+    </div>
+    
+
+</main>
+
+</div></section>
+
+    <footer>
+    <section class="footer-section">
+
+        <article class="event-host">
+            <a class="footer-link" href="f695b731560f1cfa472132b0266df2c6">Vår blogg!</a>
+            <a href="9b0f1b3a68dd3c3e4f3b3f56f0e090fd"><img class="logo" src="eb0250d9ffb65125aa28b784b7fed903" alt="smiling logo"></a>
+            <a class="footer-link" href="9163776277023121a2500968d618ca62">Om oss</a>
+        </article>
+
+    </section>
+    </footer>
+
+    <script src="125617c9718051ee8126bb213f60a75b"></script>
+    <script src="a379f045abfd17f8381ad18c6a48c8ac"></script>
+    <script src="f2f8a22bcff0afc2e0d4c9e559c00b60"></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+h1 {
+    transform: scale();
+    animation: expand 0.8s;
+}
+@keyframes expand {
+    0% {
+        opacity: 0;
+        transform: scale(0);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.invitation span {
+    transform: scale();
+    animation: expandP 1.8s;
+}
+@keyframes expandP {
+    0% {
+        opacity: 0;
+        transform: scale(0);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.scroll-down {
+    animation: 3s slidein forwards;
+}
+@keyframes slidein {
+    from {
+        transform: translateY(0);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(4rem);
+        opacity: 1;
+    }
+}
+
+/* leaf animation */
+.leaf {
+    position: absolute;
+    right: 50%;
+    z-index: 99;
+    animation: leaf 9s infinite;
+}
+
+@keyframes leaf {
+    0% {
+        transform: skew(0deg, 0deg);
+    }
+    50% {
+        transform: skew(3deg, 0deg);
+    }
+    100% {
+        transform: skew(0deg, 0deg);
+    }
+}

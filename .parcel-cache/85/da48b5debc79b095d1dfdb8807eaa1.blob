@@ -1,0 +1,153 @@
+h1 {
+    transform: scale();
+    animation: expand 0.8s;
+}
+@keyframes expand {
+    0% {
+        opacity: 0;
+        transform: scale(0);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.invitation span {
+    transform: scale();
+    animation: expandP 1.8s;
+}
+@keyframes expandP {
+    0% {
+        opacity: 0;
+        transform: scale(0);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.scroll-down {
+    animation: 3s slidein forwards;
+}
+@keyframes slidein {
+    from {
+        transform: translateY(0);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(4rem);
+        opacity: 1;
+    }
+}
+
+/* leaf animation */
+.leaf {
+    position: absolute;
+    width: 15rem;
+    padding-top: 20rem;
+    left: -2rem;
+    z-index: 99;
+    animation: leaf 9s infinite;
+    transform-origin: bottom left;
+}
+
+@keyframes leaf {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(15deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.leaf2 {
+    position: absolute;
+    width: 15rem;
+    right: -3rem;
+    z-index: 99;
+    animation: leaf2 7s ease-in-out infinite;
+    transform-origin: bottom right;
+}
+
+@keyframes leaf2 {
+    0% {
+        transform: rotate(2deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(2deg);
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .leaf {
+        width: 25rem;
+        padding-top: 10rem;
+    }
+    .leaf2 {
+        width: 25rem;
+    }
+}
+@media screen and (min-width: 700px) {
+    .leaf {
+        width: 30rem;
+        padding-top: 6rem;
+    }
+    .leaf2 {
+        padding-top: 10rem;
+        right: -5rem;
+        width: 30rem;
+    }
+}
+@media screen and (min-width: 1300px) {
+    .leaf {
+        width: 42rem;
+        top: 2rem;
+        left: -3rem;
+    }
+    .leaf2 {
+        width: 40rem;
+        right: -4rem;
+    }
+}
+/* ipad pro  */
+@media screen and (min-width: 1024px) and (max-height: 1366px) {
+    .leaf {
+        width: 25rem;
+        left: -3rem;
+        margin-top: -9rem;
+    }
+    .leaf2 {
+        margin-top: -20rem;
+        width: 30rem;
+        right: -4rem;
+    }
+}
+/* galaxy fold  */
+@media only screen and (min-width: 280) and (max-height: 653px) {
+    .leaf {
+        display: none;
+    }
+    .leaf2 {
+        margin-top: -20rem;
+        width: 30rem;
+        right: -4rem;
+    }
+}

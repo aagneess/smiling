@@ -1,0 +1,135 @@
+@media screen and (min-width: 400px) {
+    p {
+        font-size: 18px;
+    }
+    .talkers {
+        column-count: 2;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .heading {
+        width: initial;
+    }
+    .hero h1 {
+        padding-bottom: 5rem;
+    }
+    p {
+        font-size: 18px;
+    }
+    .white-box {
+        width: 70%;
+        height: 60%;
+    }
+    .introduction {
+        padding: 4rem;
+    }
+    .info-product {
+        width: 700px;
+    }
+    .product-button {
+        left: 10%;
+    }
+    a .logo {
+        margin: 0 3rem 0 3rem;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .product-button {
+        left: 18%;
+    }
+}
+@media screen and (min-width: 1300px) {
+    .hero-text h3 {
+        font-size: 43px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    p,
+    .scroll-up,
+    .footer-link {
+        font-size: 24px;
+    }
+    .invitation span,
+    p {
+        font-size: 24px;
+    }
+    .introduction {
+        width: 50vw;
+        padding: 5rem;
+    }
+    .talkers-cta {
+        width: 100%;
+    }
+    .talkers img {
+        width: 15rem;
+        margin: 1rem;
+    }
+    .form-column {
+        height: 900px;
+    }
+    .container {
+        max-width: 100%;
+    }
+    .mb-3 {
+        width: 300px;
+        padding-bottom: 3rem;
+    }
+    .form-group {
+        margin-top: 2rem;
+    }
+    .info-product {
+        width: 100%;
+        max-width: 1000px;
+    }
+    .products {
+        padding: 0;
+    }
+    .product-button {
+        display: none;
+    }
+    .hover-wrapper {
+        display: flex;
+        align-content: center;
+    }
+    .overlay {
+        position: absolute;
+        height: 645.33px;
+        width: 968px;
+        background-color: black;
+        opacity: 0.5;
+    }
+    .overlay:hover {
+        opacity: 0.5;
+    }
+    .hover-text {
+        position: relative;
+        color: white;
+        margin: 30%;
+        opacity: 1;
+        z-index: 99;
+    }
+    .hover-text:hover {
+        opacity: 1;
+    }
+}
+
+@media screen and (min-width: 1520px) {
+    .info-product,
+    .talkers-cta {
+        display: flex;
+        width: 100%;
+        max-width: 1522px;
+        padding: 0rem 0 4rem 0;
+    }
+    .event-info {
+        padding: 0 4rem 0 4rem;
+        width: 80%;
+    }
+    .products {
+        width: 100%;
+        padding: 0 2rem 0 0;
+    }
+}
