@@ -1,0 +1,40 @@
+.hero {
+    background-color: var(--main-bg);
+    margin: auto;
+    display: flex;
+    height: 100vh;
+}
+.hero h1 {
+    padding-bottom: 2rem;
+}
+.heading {
+    width: 15rem;
+}
+
+.invitation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.scroll-down {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: var(--main-bg);
+    padding-top: 0rem;
+}
+button img {
+    width: 3rem;
+}
+.invitation span,
+p {
+    font-size: 20px;
+}
+span h2 {
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: var(--main-color);
+}
+
+/*# sourceMappingURL=index.HASH_REF_3881d36e05580cd49f0cfbcae4e5133d.css.map */

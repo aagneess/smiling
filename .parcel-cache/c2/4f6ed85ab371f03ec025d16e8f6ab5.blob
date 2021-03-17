@@ -1,0 +1,2 @@
+:root{--main-bg:#bedba0;--main-footer:#f2f2f2;--event-bg:#f3e8da;--event-shadow:#d8792f}*{margin:auto;box-sizing:border-box}body,html{overflow-x:hidden;position:relative}button:focus{border:none;outline:none}
+/*# sourceMappingURL=index.HASH_REF_a1c16422f9acd1322fe92a51264f804d.css.map */
