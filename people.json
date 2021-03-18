@@ -1,139 +1,57 @@
-{"people":
+{
+    "people": [
+        { "id": "1", "firstName": "Linn", "lastName": "Ahlbom" },
 
-    [
-        {"id": "1",
-        "firstName":"Linn",
-        "lastName":"Ahlbom",
-        "occupation":"influencer"},
+        { "id": "2", "firstName": "Ellen", "lastName": "Adalberth" },
 
-        {"id":"2",
-        "firstName":"Ellen",
-        "lastName":"Adalberth",
-        "occupation":"influencer"},
+        { "id": "3", "firstName": "Fanny", "lastName": "Alvermalm" },
 
-        {"id":"3",
-        "firstName":"Fanny",
-        "lastName":"Alvermalm",
-        "occupation":"influencer"},
-        
-        {"id":"4",
-        "firstName":"Sarah",
-        "lastName":"Malm",
-        "occupation":"influencer"},
+        { "id": "4", "firstName": "Sarah", "lastName": "Malm" },
 
-        {"id":"5",
-        "firstName":"Evelina",
-        "lastName":"Bakos",
-        "occupation":"influencer"},
+        { "id": "5", "firstName": "Evelina", "lastName": "Bakos" },
 
-        {"id":"6",
-        "firstName":"Josefin",
-        "lastName":"Bech",
-        "occupation":"influencer"},
+        { "id": "6", "firstName": "Josefin", "lastName": "Bech" },
 
-        {"id":"7",
-        "firstName":"Frida",
-        "lastName":"Borbély",
-        "occupation":"influencer"},
-    
-        {"id":"8",
-        "firstName":"Lisa",
-        "lastName":"Schneiderman",
-        "occupation":"influencer"},
+        { "id": "7", "firstName": "Frida", "lastName": "Borbély" },
 
-        {"id":"9",
-        "firstName":"Matilda",
-        "lastName":"Carlsdotter",
-        "occupation":"influencer"},
+        { "id": "8", "firstName": "Lisa", "lastName": "Schneiderman" },
 
-        {"id":"10",
-        "firstName":"Teresa",
-        "lastName":"Eriksson",
-        "occupation":"influencer"},
+        { "id": "9", "firstName": "Matilda", "lastName": "Carlsdotter" },
 
-        {"id":"11",
-        "firstName":"Adam",
-        "lastName":"Augustsson",
-        "occupation":"influencer"},
-    
-        {"id":"12",
-        "firstName":"Philip",
-        "lastName":"Holmsten",
-        "occupation":"influencer"},
+        { "id": "10", "firstName": "Teresa", "lastName": "Eriksson" },
 
-        {"id":"13",
-        "firstName":"Lisa",
-        "lastName":"Löfström",
-        "occupation":"influencer"},
+        { "id": "11", "firstName": "Adam", "lastName": "Augustsson" },
 
-        {"id":"14",
-        "firstName":"Johanna",
-        "lastName":"Hellquist",
-        "occupation":"influencer"},
+        { "id": "12", "firstName": "Philip", "lastName": "Holmsten" },
 
-        {"id":"15",
-        "firstName":"Alda",
-        "lastName":"Cripljanin",
-        "occupation":"influencer"},
-    
-        {"id":"16",
-        "firstName":"Josefin",
-        "lastName":"Eldh",
-        "occupation":"company"},
+        { "id": "13", "firstName": "Lisa", "lastName": "Löfström" },
 
-        {"id":"17",
-        "firstName":"Ava",
-        "lastName":"Nikpay",
-        "occupation":"company"},
+        { "id": "14", "firstName": "Johanna", "lastName": "Hellquist" },
 
-        {"id":"18",
-        "firstName":"Cornelia",
-        "lastName":"Nordlund",
-        "occupation":"company"},
-    
-        {"id":"19",
-        "firstName":"Edvin",
-        "lastName":"Oldin",
-        "occupation":"company"},
+        { "id": "15", "firstName": "Alda", "lastName": "Cripljanin" },
 
-        {"id":"20",
-        "firstName":"Lisa",
-        "lastName":"Persson",
-        "occupation":"company"},
+        { "id": "16", "firstName": "Josefin", "lastName": "Eldh" },
 
-        {"id":"21",
-        "firstName":"Hanna",
-        "lastName":"Pålsson",
-        "occupation":"company"},
+        { "id": "17", "firstName": "Ava", "lastName": "Nikpay" },
 
-        {"id":"22",
-        "firstName":"Tova",
-        "lastName":"Rane",
-        "occupation":"company"},
-    
-        {"id":"23",
-        "firstName":"Anton",
-        "lastName":"Schmidt",
-        "occupation":"company"},
+        { "id": "18", "firstName": "Cornelia", "lastName": "Nordlund" },
 
-        {"id":"24",
-        "firstName":"Julia",
-        "lastName":"Sikström",
-        "occupation":"company"},
+        { "id": "19", "firstName": "Edvin", "lastName": "Oldin" },
 
-        {"id":"25",
-        "firstName":"Annie",
-        "lastName":"Simlund",
-        "occupation":"company"},
+        { "id": "20", "firstName": "Lisa", "lastName": "Persson" },
 
-        {"id":"26",
-        "firstName":"Dara",
-        "lastName":"Torabpour",
-        "occupation":"company"},
+        { "id": "21", "firstName": "Hanna", "lastName": "Pålsson" },
 
-        {"id":"27",
-        "firstName":"Rebecca",
-        "lastName":"Wahl",
-        "occupation":"company"}
+        { "id": "22", "firstName": "Tova", "lastName": "Rane" },
+
+        { "id": "23", "firstName": "Anton", "lastName": "Schmidt" },
+
+        { "id": "24", "firstName": "Julia", "lastName": "Sikström" },
+
+        { "id": "25", "firstName": "Annie", "lastName": "Simlund" },
+
+        { "id": "26", "firstName": "Dara", "lastName": "Torabpour" },
+
+        { "id": "27", "firstName": "Rebecca", "lastName": "Wahl" }
     ]
 }

@@ -1,0 +1,56 @@
+:root {
+    --event-text: #fff9f1;
+    --main-color: #363636;
+    --event-color: #e1b581;
+}
+/* 
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+
+ {
+    font-family: "Roboto Condensed", sans-serif;
+} */
+@font-face {
+    font-family: "CaveatBrush";
+    src: url("2fd867cafe34e22150a59613e3776bb9");
+    font-style: normal;
+    font-weight: 300;
+}
+@font-face {
+    font-family: "Roboto-Bold";
+    src: url("7b8d32313a90e6050aa5c67c36655380");
+    font-style: normal;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url("bb2d8741ff4152f9e5171a2eef7e90c8");
+    font-style: normal;
+}
+h1 {
+    font-size: 7rem;
+}
+h2 {
+    color: var(--main-color);
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: "Roboto-Bold";
+}
+.hero-text,
+p {
+    color: var(--main-color);
+    font-size: 18px;
+    line-height: 1.8rem;
+    font-family: "Roboto";
+}
+.event-button__text {
+    font-family: "Roboto";
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: 800;
+}
+.scroll-up,
+.footer-link {
+    color: var(--main-color);
+    text-transform: uppercase;
+    font-family: "Roboto-Bold";
+}

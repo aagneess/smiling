@@ -25,7 +25,10 @@ function preventClick(event) {
 document.querySelector(".event-button").addEventListener("click", preventClick);
 
 function confirmation() {
-    alert("Tack för din anmälan!");
+    const confirmMessage = confirm("Vill du godkänna din anmälan?");
+    if (confirmMessage == true) {
+        alert("Tack för din anmälan!");
+    } else alert("Du har tackat nej till inbjudan");
 }
 
 document.querySelector(".event-button").addEventListener("click", confirmation);

@@ -36,10 +36,7 @@ h2 {
     letter-spacing: 1px;
     font-family: "Roboto-Bold";
 }
-/* h4 {
-    color: var(--main-color);
-    font-family: "CaveatBrush";
-} */
+
 .hero-text,
 p {
     color: var(--main-color);
