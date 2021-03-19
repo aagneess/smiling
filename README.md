@@ -1,6 +1,6 @@
 # Smiling Event
 
-
+[Link to the site](https://smilingevent.netlify.app/)
 
 # Code review 
 
